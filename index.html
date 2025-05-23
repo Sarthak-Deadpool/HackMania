@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Mindful Mode</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header with YouTube logo -->
+  <header class="header">
+    <div class="logo">YouTube</div>
+    <div class="icons">
+      <span>🔽</span>
+      <span>🔍</span>
+      <span>⋮</span>
+    </div>
+  </header>
+
+  <main class="container">
+     <!-- Video with glowing border -->
+    <div class="video-border-wrapper">
+      <div class="video-thumbnail">
+        <video id="mindful-video" poster="image.png" height="220" width="100%" controls>
+          <source src="video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+    
+   
+    
+
+    <!-- Streak reminder card -->
+    <div class="streak-card">
+      <div class="streak-text">
+        <span class="clock-icon">🕒</span>
+        <span>Nice streak! Need a quick breather?</span>
+      </div>
+      <button class="break-btn">Take 1-min break</button>
+    </div>
+
+    <!-- Sleep Timer card -->
+    <div class="sleep-timer-card">
+      <div class="sleep-timer-text">
+        <span class="moon-icon">🌙</span>
+        <span>Sleep timer: stop autoplay after this video?</span>
+      </div>
+      <div class="sleep-timer-buttons">
+        <button id="yes-btn">Yes</button>
+        <button id="no-btn">No</button>
+      </div>
+    </div>
+
+    <!-- Video info section -->
+    <div class="video-info">
+      <h3>Video Title</h3>
+      <p>1.2M views · 5 hours ago</p>
+      <div class="channel-info">
+        <div class="channel-icon"></div>
+        <span>Channel Name</span>
+      </div>
+
+      <!-- Action buttons -->
+      <div class="actions">
+        <div>👍<br>12K</div>
+        <div>👎<br>Dislike</div>
+        <div>🔗<br>Share</div>
+        <div>⬇<br>Download</div>
+        <div>✂<br>Clip</div>
+      </div>
+
+      <div class="comments">💬 Comments 6.5K</div>
+      <!-- Comment section -->
+      <div class="comment-section">
+        <div class="comment">
+          <div class="comment-user"></div>
+          <div class="comment-content">
+            <strong>User123</strong>
+            <p>Great video! Helped a lot. 👍</p>
+          </div>
+        </div>
+        <div class="comment">
+          <div class="comment-user"></div>
+          <div class="comment-content">
+            <strong>Viewer456</strong>
+            <p>I love this new mindful feature!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Navigation Bar -->
+  <nav class="bottom-nav">
+    <div>🏠<br>Home</div>
+    <div>🎬<br>Shorts</div>
+    <div>➕<br>Add</div>
+    <div class="active">❗<br>Mindful Mode</div>
+    <div>📚<br>Library</div>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>

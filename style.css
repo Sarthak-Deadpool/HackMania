@@ -1,0 +1,171 @@
+
+body {
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 16px;
+    align-items: center;
+    max-width: 420px;
+    margin: auto;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .icons span {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  .container {
+    padding: 10px 16px;
+    max-width: 420px;
+    margin: auto;
+  }
+  .video-border-wrapper {
+    padding: 3px; /* thickness of border */
+    background: linear-gradient(to right, orange, red, pink);
+    border-radius: 20px;
+    display: inline-block;
+  }
+  
+  .video-thumbnail {
+    border-radius: 17px; /* slightly less to stay inside wrapper */
+    overflow: hidden;
+    background: black;
+  }
+  
+  .video-thumbnail video {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .streak-card {
+    background-color: #1f1f1f;
+    margin-top: 16px;
+    padding: 14px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .streak-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .break-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .sleep-timer-card {
+    background-color: #1f1f1f;
+    margin-top: 16px;
+    padding: 14px;
+    border-radius: 12px;
+  }
+  .sleep-timer-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  .sleep-timer-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  .sleep-timer-buttons button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .video-info {
+    margin-top: 20px;
+  }
+  .channel-info {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    gap: 10px;
+  }
+  .channel-icon {
+    width: 36px;
+    height: 36px;
+    background-color: gray;
+    border-radius: 50%;
+  }
+  .actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+    font-size: 12px;
+  }
+  .comments {
+    margin-top: 14px;
+    background-color: #1a1a1a;
+    padding: 8px;
+    border-radius: 8px;
+  }
+  .comment-section {
+    margin-top: 10px;
+  }
+  .comment {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+  .comment-user {
+    width: 32px;
+    height: 32px;
+    background-color: #555;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .comment-content {
+    flex: 1;
+    background-color: #1f1f1f;
+    padding: 8px;
+    border-radius: 8px;
+  }
+  .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px 0;
+    font-size: 12px;
+    max-width: 420px;
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+  .bottom-nav div {
+    text-align: center;
+    color: #bbb;
+  }
+  .bottom-nav .active {
+    color: cyan;
+  }
+  @media (max-width: 480px) {
+    .container, .header, .bottom-nav {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  }
+  
